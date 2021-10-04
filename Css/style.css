@@ -1,0 +1,106 @@
+@media screen and (min-width:300px) and (max-width:400px)  {
+    .inputtext{
+        margin-left: 50px !important;
+        
+    }
+}
+
+@media screen and (min-width:776px) and (max-width:994px)  {
+    .inputtext{
+        margin-left: 50px !important;
+        
+    }
+}
+@media screen and (min-width:200px) and (max-width:300px)  {
+    .inputtext{
+        margin-left: 0px !important;
+        
+        
+    }
+    .colval{
+        font-size: 12px;
+    }
+}
+.colstyle{
+    box-sizing: border-box;
+    
+    height: 700px;
+    width: 100%;
+    padding: 0px;
+}
+
+.div-container{
+    padding: 40px;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    
+
+}
+.texts{
+    
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.contentdiv{
+    background-color: white;
+    padding: 20px;
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to top, yellow,orange);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.colval
+{
+    
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.inputtext{
+    display: flex;
+    margin-left:100px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icon{
+    position: absolute;
+    left: 190px;
+    top: 15px;
+}
+
+.buttondata{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+#temp{
+    color: orange;
+}
+#press{
+    color: orange;
+}
+#humid
+{
+    color: orange;
+}
